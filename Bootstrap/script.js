@@ -1,9 +1,9 @@
 const menssage = document.getElementsByClassName('menssage')[0]
 
 function aninMenssage() {
-    menssage.style.bottom = "6vh"
+    menssage.style.bottom = "2rem"
 
-    setTimeout(() => {menssage.style.bottom = "-6vh"}, 1800)
+    setTimeout(() => {menssage.style.bottom = "-5rem"}, 1800)
 }
 
 function generateColors(){
