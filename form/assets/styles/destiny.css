@@ -1,0 +1,12 @@
+h1 {
+  font-size: 3.2rem;
+  color: var(--primaryColor);
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text);
+}

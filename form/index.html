@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="./assets/styles/form.css" />
+
+    <title>Form</title>
+  </head>
+  <body>
+    <form name="register" action="./pages/destiny/" method="GET">
+      <h1>Formulário</h1>
+
+      <div class="input">
+        <label for="name">Por favor digite o seu nome</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Ex: Joãozin"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="input">
+        <label for="lastname">Por favor digite o seu sobrenome</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Ex: das Goiaba"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="input">
+        <label for="email">Por favor digite o seu email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Ex: joãozin1234@gmail.com"
+          autocomplete="off"
+        />
+      </div>
+
+      <button type="submit">Prosseguir</button>
+    </form>
+
+    <script src="./assets/scripts/validateForm.js"></script>
+  </body>
+</html>
